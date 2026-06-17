@@ -1,0 +1,50 @@
+{"gold_entry_id": "flashlight_no_light_001", "gold_fault_category": "Completely off", "device": "Flashlight", "symptom_text": "I slide the switch but no light comes out at all"}
+{"gold_entry_id": "flashlight_no_light_001", "gold_fault_category": "Completely off", "device": "Flashlight", "symptom_text": "Just put in fresh Duracell batteries and it's still pitch black"}
+{"gold_entry_id": "flashlight_dim_001", "gold_fault_category": "Dim or flickering", "device": "Flashlight", "symptom_text": "The light flashes like a strobe and hurts my eyes"}
+{"gold_entry_id": "flashlight_dim_001", "gold_fault_category": "Dim or flickering", "device": "Flashlight", "symptom_text": "It used to be blinding but now it barely lights up the ground"}
+{"gold_entry_id": "flashlight_switch_fail_001", "gold_fault_category": "Switch failure", "device": "Flashlight", "symptom_text": "The rubber button on the back has zero resistance"}
+{"gold_entry_id": "flashlight_switch_fail_001", "gold_fault_category": "Switch failure", "device": "Flashlight", "symptom_text": "Button is sunken in and won't bounce back"}
+{"gold_entry_id": "flashlight_contact_001", "gold_fault_category": "Intermittent loose contact", "device": "Flashlight", "symptom_text": "I set it on the table and it turns off, pick it up and it works"}
+{"gold_entry_id": "flashlight_contact_001", "gold_fault_category": "Intermittent loose contact", "device": "Flashlight", "symptom_text": "Keeps cutting out, I have to smack the side to fix it"}
+{"gold_entry_id": "flashlight_no_charge_001", "gold_fault_category": "Cannot charge", "device": "Flashlight", "symptom_text": "Plugged the USB in but the charging light remains off"}
+{"gold_entry_id": "flashlight_no_charge_001", "gold_fault_category": "Cannot charge", "device": "Flashlight", "symptom_text": "Left it charging all day but it still won't turn on"}
+{"gold_entry_id": "kettle_no_power_001", "gold_fault_category": "No power no heat", "device": "Kettle", "symptom_text": "Set it on the base and clicked the switch, dead silence"}
+{"gold_entry_id": "kettle_no_power_001", "gold_fault_category": "No power no heat", "device": "Kettle", "symptom_text": "The light is broken and the water doesn't get warm"}
+{"gold_entry_id": "kettle_early_stop_001", "gold_fault_category": "Stops heating too early", "device": "Kettle", "symptom_text": "The switch pops up before I even hear the water boiling"}
+{"gold_entry_id": "kettle_early_stop_001", "gold_fault_category": "Stops heating too early", "device": "Kettle", "symptom_text": "It stops heating when the water is barely warm to the touch"}
+{"gold_entry_id": "kettle_leak_001", "gold_fault_category": "Leaking", "device": "Kettle", "symptom_text": "Water is constantly pooling out from under the kettle"}
+{"gold_entry_id": "kettle_leak_001", "gold_fault_category": "Leaking", "device": "Kettle", "symptom_text": "I noticed drops coming out right next to the plastic water gauge"}
+{"gold_entry_id": "kettle_indicator_001", "gold_fault_category": "Indicator on but won't stop boiling", "device": "Kettle", "symptom_text": "Water is splashing out everywhere and it's still furiously boiling"}
+{"gold_entry_id": "kettle_indicator_001", "gold_fault_category": "Indicator on but won't stop boiling", "device": "Kettle", "symptom_text": "Water is completely boiled but the switch never popped up"}
+{"gold_entry_id": "kettle_dry_burn_001", "gold_fault_category": "Dry boil protection failure", "device": "Kettle", "symptom_text": "I forgot to add water and turned it on, and it just kept heating an empty pot"}
+{"gold_entry_id": "kettle_dry_burn_001", "gold_fault_category": "Dry boil protection failure", "device": "Kettle", "symptom_text": "It doesn't protect itself when empty, it heated until I smelled smoke"}
+{"gold_entry_id": "kettle_smell_001", "gold_fault_category": "Limescale or bad smell", "device": "Kettle", "symptom_text": "The boiled water tastes like melting plastic"}
+{"gold_entry_id": "kettle_smell_001", "gold_fault_category": "Limescale or bad smell", "device": "Kettle", "symptom_text": "There's a thick crust of white stuff at the bottom"}
+{"gold_entry_id": "kettle_smell_001", "gold_fault_category": "Limescale or bad smell", "device": "Kettle", "symptom_text": "I can feel gritty pieces in my mouth when I drink the water"}
+{"gold_entry_id": "coffee_no_power_001", "gold_fault_category": "No power no water", "device": "Coffee Machine", "symptom_text": "No matter how much I press the power button, it won't wake up"}
+{"gold_entry_id": "coffee_no_power_001", "gold_fault_category": "No power no water", "device": "Coffee Machine", "symptom_text": "Plug is fine, but the machine screen is dark and won't start"}
+{"gold_entry_id": "coffee_flow_slow_001", "gold_fault_category": "Slow flow or blocked", "device": "Coffee Machine", "symptom_text": "Espresso is dripping out incredibly slowly"}
+{"gold_entry_id": "coffee_flow_slow_001", "gold_fault_category": "Slow flow or blocked", "device": "Coffee Machine", "symptom_text": "The basket seems clogged, I hear the pump but no liquid"}
+{"gold_entry_id": "coffee_leak_001", "gold_fault_category": "Leaking", "device": "Coffee Machine", "symptom_text": "Water is spraying out sideways from the brew head"}
+{"gold_entry_id": "coffee_leak_001", "gold_fault_category": "Leaking", "device": "Coffee Machine", "symptom_text": "I randomly found a huge puddle under the machine"}
+{"gold_entry_id": "coffee_cold_001", "gold_fault_category": "Coffee not hot enough", "device": "Coffee Machine", "symptom_text": "The extracted espresso isn't hot at all, just lukewarm"}
+{"gold_entry_id": "coffee_cold_001", "gold_fault_category": "Coffee not hot enough", "device": "Coffee Machine", "symptom_text": "The steam wand for frothing milk doesn't get as hot as it used to"}
+{"gold_entry_id": "coffee_pump_noise_001", "gold_fault_category": "Loud pump noise", "device": "Coffee Machine", "symptom_text": "Tank is full but the pump is just screaming and pulling zero water"}
+{"gold_entry_id": "coffee_pump_noise_001", "gold_fault_category": "Loud pump noise", "device": "Coffee Machine", "symptom_text": "Machine sounds like a jackhammer but no espresso is coming out"}
+{"gold_entry_id": "coffee_descale_001", "gold_fault_category": "Needs descaling", "device": "Coffee Machine", "symptom_text": "That descale warning icon just won't stop flashing red"}
+{"gold_entry_id": "coffee_descale_001", "gold_fault_category": "Needs descaling", "device": "Coffee Machine", "symptom_text": "Screen keeps forcing me to clean the scale and won't let me brew"}
+{"gold_entry_id": "fan_no_power_001", "gold_fault_category": "No power no spin", "device": "Fan", "symptom_text": "Outlet is fine but the fan is completely dead and won't spin"}
+{"gold_entry_id": "fan_no_power_001", "gold_fault_category": "No power no spin", "device": "Fan", "symptom_text": "No matter which speed dial I turn, there is no wind and no power"}
+{"gold_entry_id": "fan_weak_speed_001", "gold_fault_category": "Weak speed", "device": "Fan", "symptom_text": "It's on setting 3 but turning so slow like it has no energy"}
+{"gold_entry_id": "fan_weak_speed_001", "gold_fault_category": "Weak speed", "device": "Fan", "symptom_text": "I have to physically push the blade to get it to slowly start moving"}
+{"gold_entry_id": "fan_noise_001", "gold_fault_category": "Abnormal noise", "device": "Fan", "symptom_text": "The motor area emits a really sharp squeaking friction noise"}
+{"gold_entry_id": "fan_noise_001", "gold_fault_category": "Abnormal noise", "device": "Fan", "symptom_text": "Sounds like there's sand grinding inside it when it spins"}
+{"gold_entry_id": "fan_no_swing_001", "gold_fault_category": "Oscillation (swing) failed", "device": "Fan", "symptom_text": "Pushed the swing button but it just stares straight ahead"}
+{"gold_entry_id": "fan_no_swing_001", "gold_fault_category": "Oscillation (swing) failed", "device": "Fan", "symptom_text": "Swing gets stuck halfway and makes a loud clicking gear noise"}
+{"gold_entry_id": "fan_hum_no_spin_001", "gold_fault_category": "Humming but not spinning", "device": "Fan", "symptom_text": "Turn it on and the motor buzzes angrily but the blades are frozen"}
+{"gold_entry_id": "fan_hum_no_spin_001", "gold_fault_category": "Humming but not spinning", "device": "Fan", "symptom_text": "The axle is totally stuck, it makes an electrical sound and gets hot but won't turn"}
+{"gold_entry_id": "fan_switch_fail_001", "gold_fault_category": "Switch or buttons failing", "device": "Fan", "symptom_text": "The mechanical speed buttons feel blocked and won't press down"}
+{"gold_entry_id": "fan_switch_fail_001", "gold_fault_category": "Switch or buttons failing", "device": "Fan", "symptom_text": "The button to change speed is pressed in and won't pop out"}
+{"gold_entry_id": "fan_switch_fail_001", "gold_fault_category": "Switch or buttons failing", "device": "Fan", "symptom_text": "Multiple keys got stuck down at the same time"}
+{"gold_entry_id": "fan_wobble_001", "gold_fault_category": "Wobbling and shaking", "device": "Fan", "symptom_text": "The moment I turn it on the whole base vibrates like it's going to break apart"}
+{"gold_entry_id": "fan_wobble_001", "gold_fault_category": "Wobbling and shaking", "device": "Fan", "symptom_text": "The blades look super unstable and wobbly when spinning"}

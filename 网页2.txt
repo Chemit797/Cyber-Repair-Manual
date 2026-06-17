@@ -1,0 +1,164 @@
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="个人学习中心。查看积分、证书、成就勋章、作品集。学习过程与成果沉淀为能力画像，帮助就业与研究。你的能力，数据会说话。"
+      data-seo-field="description"
+    />
+    <meta name="robots" content="noindex,nofollow" data-seo-field="robots" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:site_name" content="Datawhale AI学习中心" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="个人学习中心 - Datawhale" data-seo-field="og:title" />
+    <meta
+      property="og:description"
+      content="个人学习中心。查看积分、证书、成就勋章、作品集。学习过程与成果沉淀为能力画像，帮助就业与研究。你的能力，数据会说话。"
+      data-seo-field="og:description"
+    />
+    <meta property="og:url" content="https://ailc.datawhale.cn/profile" data-seo-field="og:url" />
+    <meta property="og:image" content="https://ailc.datawhale.cn/images/amd-developer-banner.jpg" data-seo-field="og:image" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://ailc.datawhale.cn/images/amd-developer-banner.jpg" data-seo-field="twitter:image" />
+    <link rel="canonical" href="https://ailc.datawhale.cn/profile" data-seo-field="canonical" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title data-seo-field="title">个人学习中心 - Datawhale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --seo-bg: #f5f6f7;
+        --seo-card: #ffffff;
+        --seo-border: #000000;
+        --seo-shadow: rgba(0, 0, 0, 1);
+        --seo-text: #000000;
+        --seo-text-secondary: #6b7280;
+        --seo-accent: #01f7f2;
+      }
+
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+        background: var(--seo-bg);
+        color: var(--seo-text);
+        font-family: 'Inter', sans-serif;
+      }
+
+      body {
+        overflow-x: hidden;
+      }
+
+      #app {
+        min-height: 100vh;
+      }
+
+      .seo-shell {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 48px 24px 32px;
+      }
+
+      .seo-shell__eyebrow {
+        margin: 0 0 14px;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.32em;
+        color: var(--seo-text-secondary);
+      }
+
+      .seo-shell h1 {
+        margin: 0;
+        max-width: 920px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: clamp(32px, 5vw, 58px);
+        line-height: 1.05;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+      }
+
+      .seo-shell > p {
+        max-width: 820px;
+        margin: 18px 0 0;
+        font-size: 16px;
+        line-height: 1.9;
+        color: var(--seo-text-secondary);
+      }
+
+      .seo-shell__links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 22px;
+      }
+
+      .seo-shell__links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        padding: 0 18px;
+        border: 2px solid var(--seo-border);
+        border-radius: 999px;
+        background: var(--seo-card);
+        color: var(--seo-text);
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        text-decoration: none;
+        text-transform: uppercase;
+        box-shadow: 3px 3px 0 0 var(--seo-shadow);
+      }
+
+      .seo-shell__links a:last-child {
+        background: var(--seo-accent);
+      }
+
+      @media (max-width: 640px) {
+        .seo-shell {
+          padding: 32px 16px 24px;
+        }
+
+        .seo-shell > p {
+          font-size: 15px;
+          line-height: 1.75;
+        }
+
+        .seo-shell__links {
+          flex-direction: column;
+        }
+
+        .seo-shell__links a {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    </style>
+    <script type="application/ld+json" data-seo-schema="page">
+      {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://ailc.datawhale.cn/#organization","name":"Datawhale AI学习中心","url":"https://ailc.datawhale.cn/","sameAs":["https://github.com/datawhalechina","https://space.bilibili.com/431850986","https://www.datawhale.cn/about"]},{"@type":"WebSite","@id":"https://ailc.datawhale.cn/#website","url":"https://ailc.datawhale.cn/","name":"Datawhale AI学习中心","publisher":{"@id":"https://ailc.datawhale.cn/#organization"},"inLanguage":"zh-CN"},{"@type":"WebPage","@id":"https://ailc.datawhale.cn/profile#webpage","url":"https://ailc.datawhale.cn/profile","name":"个人学习中心 - Datawhale","description":"个人学习中心。查看积分、证书、成就勋章、作品集。学习过程与成果沉淀为能力画像，帮助就业与研究。你的能力，数据会说话。","isPartOf":{"@id":"https://ailc.datawhale.cn/#website"},"about":{"@id":"https://ailc.datawhale.cn/#organization"},"inLanguage":"zh-CN"}]}
+    </script>
+  <script type="module" crossorigin src="/assets/index-Q-m7ERSF.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BH3hgA7E.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <noscript>
+      <main class="seo-shell">
+        <p class="seo-shell__eyebrow">DATAWHALE AI LEARNING CENTER</p>
+        <h1>Datawhale AI学习中心：国内领先的AI开源学习中心</h1>
+        <p>
+          Datawhale发起，国内领先的AI开源学习中心。通过真实场景清单、技能树、证书积分，实现学练赛证用闭环。
+          与3000+高校企业共建，从微学习到真能力。
+        </p>
+        <nav class="seo-shell__links" aria-label="首页核心导航">
+          <a href="/hall">探索AI任务与专题</a>
+          <a href="/community">进入AI学习社区</a>
+          <a href="/profile">查看个人学习中心</a>
+        </nav>
+      </main>
+    </noscript>
+  </body>
+</html>

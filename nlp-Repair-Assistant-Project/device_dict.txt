@@ -1,0 +1,4 @@
+Flashlight 100 DEVICE
+Kettle 100 DEVICE
+Coffee Machine 100 DEVICE
+Fan 100 DEVICE

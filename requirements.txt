@@ -1,0 +1,8 @@
+pydantic>=2.0
+jieba
+rank_bm25
+sentence-transformers
+streamlit
+scikit-learn
+matplotlib
+networkx
