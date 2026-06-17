@@ -27,6 +27,28 @@ Cyber-Repair-Manual is a deterministic, offline troubleshooting assistant. It re
 [Level 3] Decision Gate (决策门控): Evaluates confidence margin. Low confidence triggers dynamic clarification.
 [Level 4] Renderer (输出渲染): Formats retrieved manual entries into structured Markdown output.
 
+## WORLD 2-2: EXECUTIONS (输入输出示例)
+
+[CASE 1: HIGH CONFIDENCE (高置信诊断)]
+Input: "The light keeps flickering, sometimes bright sometimes dim"
+Output: 
+- Diagnosis: Dim or flickering (Severity: DIY Repair)
+- Steps: 1. Replace with fully charged batteries... 2. Clean contacts with an alcohol swab...
+
+[CASE 2: SAFETY PROTOCOL TRIGGERED (安全拦截送修)]
+Input: "My kettle is leaving a puddle on the table and dripping constantly"
+Output: 
+- WARNING: Beyond DIY repair. Safety risks involved.
+- Notes: Unplug immediately! Water leaking onto the high-voltage base is a severe electrocution hazard!
+
+[CASE 3: CLARIFICATION GATE (决策门控追问)]
+Input: "Pump is loud but no coffee comes out"
+Internal State: Low confidence margin detected.
+System Prompt: "Did the water tank recently run completely dry before this started happening?" (Awaiting Yes/No from user to rerank candidates).
+
+## WORLD 2-3: VISUALS (界面预览)
+![System Preview](error1.jpg)
+
 ## WORLD 3-1: START GAME (环境配置)
 Requirements: Python 3.10+
 
