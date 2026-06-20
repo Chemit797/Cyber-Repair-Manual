@@ -13,14 +13,14 @@ Cyber-Repair-Manual is a deterministic, offline troubleshooting assistant. It re
 - **Anti-Scam & Safety Protocol**: Distinguishes between DIY fixes and hardware faults. High-voltage issues trigger a hard stop advising professional repair.
 - **Two-Stage Cascaded Retrieval**: 
   1. Lexical Recall (`rank_bm25`)
-  2. Dense Reranking (`sentence-transformers` / Cosine Similarity)
+  2. TF-IDF Reranking (`TF-IDF` / Cosine Similarity)
 - **Interactive Decision Gate**: Ambiguous inputs trigger targeted clarification questions based on data-driven decision trees.
 - **100% Offline**: Runs entirely locally. No external API dependencies.
 
 ## Architecture
 - **Phase 0 - The Cyber Corpus**: Manuals structured into a JSONL schema covering symptoms, safety notes, and atomic steps.
 - **Phase 1 - Symptom Parser**: Utilizes `jieba` to extract target devices and symptom keywords.
-- **Phase 2 - Retriever**: Device Hard Filter -> BM25 Recall -> Dense Embedding Reranking.
+- **Phase 2 - Retriever**: Device Hard Filter -> BM25 Recall -> TF-IDF Cosine Similarity Reranking.
 - **Phase 3 - Decision Gate**: Evaluates confidence margin. Low confidence triggers dynamic clarification.
 - **Phase 4 - Renderer**: Formats retrieved manual entries into structured Markdown output.
 

@@ -1,0 +1,4 @@
+﻿mode,num_test_cases,P@1,P@3,MRR
+BM25 Only,50,0.78,0.96,0.87
+Dense Only,50,0.84,0.98,0.9133333333333334
+Cascaded BM25+Dense,50,0.74,0.96,0.85

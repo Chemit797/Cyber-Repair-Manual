@@ -32,14 +32,14 @@
 1. 载入你刚写的 `test_set.jsonl`。
 2. 循环每一条测试语句，分别让系统用三种模式检索：
    - **Mode 1**: 纯 BM25 (`rank_bm25`)
-   - **Mode 2**: 纯 Dense Embedding (`sentence-transformers`)
+   - **Mode 2**: 纯 TF-IDF Vector (`TF-IDF`)
    - **Mode 3**: 级联模式 (我们的方案：BM25 取 Top-10，再用 Dense 重排)
 3. 记录命中情况：看“正确答案 (`gold_fault_category`)”排在结果的第 1 位（**P@1**），还是前 3 位（**P@3**），并计算 **MRR** (Mean Reciprocal Rank)。
 
 ### 第三步：生成分析图表（为报告 Chapter 4 输送炮弹）
 数字不够直观，老师喜欢看图。在你的 `evaluate.py` 中，使用 `matplotlib` 或 `seaborn` 将结果画出来：
 1. **对比柱状图**：
-   - 横坐标：三种检索方法（BM25, Dense Only, Cascaded）
+   - 横坐标：三种检索方法（BM25, TF-IDF Only, Cascaded）
    - 纵坐标：准确率百分比。
    - 画出 P@1 和 P@3 的分组柱状图。
 2. **（可选加分项）分类器消融对比（Ablation）**：

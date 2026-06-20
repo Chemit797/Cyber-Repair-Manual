@@ -1,0 +1,151 @@
+﻿case_id,mode,query,gold_device,gold_fault_category,gold_entry_id,pred_device_top1,pred_fault_category_top1,pred_entry_id_top1,correct_rank,hit_at_1,hit_at_3
+1,BM25 Only,I slide the switch but no light comes out at all,Flashlight,Completely off,flashlight_no_light_001,Flashlight,Completely off,flashlight_no_light_001,1,1,1
+2,BM25 Only,Just put in fresh Duracell batteries and it's still pitch black,Flashlight,Completely off,flashlight_no_light_001,Flashlight,Completely off,flashlight_no_light_001,1,1,1
+3,BM25 Only,The light flashes like a strobe and hurts my eyes,Flashlight,Dim or flickering,flashlight_dim_001,Flashlight,Dim or flickering,flashlight_dim_001,1,1,1
+4,BM25 Only,It used to be blinding but now it barely lights up the ground,Flashlight,Dim or flickering,flashlight_dim_001,Flashlight,Dim or flickering,flashlight_dim_001,1,1,1
+5,BM25 Only,The rubber button on the back has zero resistance,Flashlight,Switch failure,flashlight_switch_fail_001,Flashlight,Switch failure,flashlight_switch_fail_001,1,1,1
+6,BM25 Only,Button is sunken in and won't bounce back,Flashlight,Switch failure,flashlight_switch_fail_001,Flashlight,Switch failure,flashlight_switch_fail_001,1,1,1
+7,BM25 Only,"I set it on the table and it turns off, pick it up and it works",Flashlight,Intermittent loose contact,flashlight_contact_001,Flashlight,Intermittent loose contact,flashlight_contact_001,1,1,1
+8,BM25 Only,"Keeps cutting out, I have to smack the side to fix it",Flashlight,Intermittent loose contact,flashlight_contact_001,Flashlight,Dim or flickering,flashlight_dim_001,3,0,1
+9,BM25 Only,Plugged the USB in but the charging light remains off,Flashlight,Cannot charge,flashlight_no_charge_001,Flashlight,Cannot charge,flashlight_no_charge_001,1,1,1
+10,BM25 Only,Left it charging all day but it still won't turn on,Flashlight,Cannot charge,flashlight_no_charge_001,Flashlight,Switch failure,flashlight_switch_fail_001,4,0,0
+11,BM25 Only,"Set it on the base and clicked the switch, dead silence",Kettle,No power no heat,kettle_no_power_001,Kettle,No power no heat,kettle_no_power_001,1,1,1
+12,BM25 Only,The light is broken and the water doesn't get warm,Kettle,No power no heat,kettle_no_power_001,Kettle,Stops heating too early,kettle_early_stop_001,3,0,1
+13,BM25 Only,The switch pops up before I even hear the water boiling,Kettle,Stops heating too early,kettle_early_stop_001,Kettle,Stops heating too early,kettle_early_stop_001,1,1,1
+14,BM25 Only,It stops heating when the water is barely warm to the touch,Kettle,Stops heating too early,kettle_early_stop_001,Kettle,Leaking,kettle_leak_001,2,0,1
+15,BM25 Only,Water is constantly pooling out from under the kettle,Kettle,Leaking,kettle_leak_001,Kettle,No power no heat,kettle_no_power_001,3,0,1
+16,BM25 Only,I noticed drops coming out right next to the plastic water gauge,Kettle,Leaking,kettle_leak_001,Kettle,Limescale or bad smell,kettle_smell_001,2,0,1
+17,BM25 Only,Water is splashing out everywhere and it's still furiously boiling,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,1,1,1
+18,BM25 Only,Water is completely boiled but the switch never popped up,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,Kettle,Limescale or bad smell,kettle_smell_001,4,0,0
+19,BM25 Only,"I forgot to add water and turned it on, and it just kept heating an empty pot",Kettle,Dry boil protection failure,kettle_dry_burn_001,Kettle,Dry boil protection failure,kettle_dry_burn_001,1,1,1
+20,BM25 Only,"It doesn't protect itself when empty, it heated until I smelled smoke",Kettle,Dry boil protection failure,kettle_dry_burn_001,Kettle,Dry boil protection failure,kettle_dry_burn_001,1,1,1
+21,BM25 Only,The boiled water tastes like melting plastic,Kettle,Limescale or bad smell,kettle_smell_001,Kettle,Limescale or bad smell,kettle_smell_001,1,1,1
+22,BM25 Only,There's a thick crust of white stuff at the bottom,Kettle,Limescale or bad smell,kettle_smell_001,Kettle,Limescale or bad smell,kettle_smell_001,1,1,1
+23,BM25 Only,I can feel gritty pieces in my mouth when I drink the water,Kettle,Limescale or bad smell,kettle_smell_001,Kettle,Limescale or bad smell,kettle_smell_001,1,1,1
+24,BM25 Only,"No matter how much I press the power button, it won't wake up",Coffee Machine,No power no water,coffee_no_power_001,Coffee Machine,No power no water,coffee_no_power_001,1,1,1
+25,BM25 Only,"Plug is fine, but the machine screen is dark and won't start",Coffee Machine,No power no water,coffee_no_power_001,Coffee Machine,Needs descaling,coffee_descale_001,2,0,1
+26,BM25 Only,Espresso is dripping out incredibly slowly,Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,Coffee Machine,Coffee not hot enough,coffee_cold_001,2,0,1
+27,BM25 Only,"The basket seems clogged, I hear the pump but no liquid",Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,1,1,1
+28,BM25 Only,Water is spraying out sideways from the brew head,Coffee Machine,Leaking,coffee_leak_001,Coffee Machine,Leaking,coffee_leak_001,1,1,1
+29,BM25 Only,I randomly found a huge puddle under the machine,Coffee Machine,Leaking,coffee_leak_001,Coffee Machine,Leaking,coffee_leak_001,1,1,1
+30,BM25 Only,"The extracted espresso isn't hot at all, just lukewarm",Coffee Machine,Coffee not hot enough,coffee_cold_001,Coffee Machine,Coffee not hot enough,coffee_cold_001,1,1,1
+31,BM25 Only,The steam wand for frothing milk doesn't get as hot as it used to,Coffee Machine,Coffee not hot enough,coffee_cold_001,Coffee Machine,Coffee not hot enough,coffee_cold_001,1,1,1
+32,BM25 Only,Tank is full but the pump is just screaming and pulling zero water,Coffee Machine,Loud pump noise,coffee_pump_noise_001,Coffee Machine,Loud pump noise,coffee_pump_noise_001,1,1,1
+33,BM25 Only,Machine sounds like a jackhammer but no espresso is coming out,Coffee Machine,Loud pump noise,coffee_pump_noise_001,Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,2,0,1
+34,BM25 Only,That descale warning icon just won't stop flashing red,Coffee Machine,Needs descaling,coffee_descale_001,Coffee Machine,Needs descaling,coffee_descale_001,1,1,1
+35,BM25 Only,Screen keeps forcing me to clean the scale and won't let me brew,Coffee Machine,Needs descaling,coffee_descale_001,Coffee Machine,Needs descaling,coffee_descale_001,1,1,1
+36,BM25 Only,Outlet is fine but the fan is completely dead and won't spin,Fan,No power no spin,fan_no_power_001,Fan,No power no spin,fan_no_power_001,1,1,1
+37,BM25 Only,"No matter which speed dial I turn, there is no wind and no power",Fan,No power no spin,fan_no_power_001,Fan,No power no spin,fan_no_power_001,1,1,1
+38,BM25 Only,It's on setting 3 but turning so slow like it has no energy,Fan,Weak speed,fan_weak_speed_001,Fan,Weak speed,fan_weak_speed_001,1,1,1
+39,BM25 Only,I have to physically push the blade to get it to slowly start moving,Fan,Weak speed,fan_weak_speed_001,Fan,Humming but not spinning,fan_hum_no_spin_001,2,0,1
+40,BM25 Only,The motor area emits a really sharp squeaking friction noise,Fan,Abnormal noise,fan_noise_001,Fan,Abnormal noise,fan_noise_001,1,1,1
+41,BM25 Only,Sounds like there's sand grinding inside it when it spins,Fan,Abnormal noise,fan_noise_001,Fan,Abnormal noise,fan_noise_001,1,1,1
+42,BM25 Only,Pushed the swing button but it just stares straight ahead,Fan,Oscillation (swing) failed,fan_no_swing_001,Fan,Oscillation (swing) failed,fan_no_swing_001,1,1,1
+43,BM25 Only,Swing gets stuck halfway and makes a loud clicking gear noise,Fan,Oscillation (swing) failed,fan_no_swing_001,Fan,Oscillation (swing) failed,fan_no_swing_001,1,1,1
+44,BM25 Only,Turn it on and the motor buzzes angrily but the blades are frozen,Fan,Humming but not spinning,fan_hum_no_spin_001,Fan,Humming but not spinning,fan_hum_no_spin_001,1,1,1
+45,BM25 Only,"The axle is totally stuck, it makes an electrical sound and gets hot but won't turn",Fan,Humming but not spinning,fan_hum_no_spin_001,Fan,Humming but not spinning,fan_hum_no_spin_001,1,1,1
+46,BM25 Only,The mechanical speed buttons feel blocked and won't press down,Fan,Switch or buttons failing,fan_switch_fail_001,Fan,Switch or buttons failing,fan_switch_fail_001,1,1,1
+47,BM25 Only,The button to change speed is pressed in and won't pop out,Fan,Switch or buttons failing,fan_switch_fail_001,Fan,Switch or buttons failing,fan_switch_fail_001,1,1,1
+48,BM25 Only,Multiple keys got stuck down at the same time,Fan,Switch or buttons failing,fan_switch_fail_001,Fan,Switch or buttons failing,fan_switch_fail_001,1,1,1
+49,BM25 Only,The moment I turn it on the whole base vibrates like it's going to break apart,Fan,Wobbling and shaking,fan_wobble_001,Fan,Wobbling and shaking,fan_wobble_001,1,1,1
+50,BM25 Only,The blades look super unstable and wobbly when spinning,Fan,Wobbling and shaking,fan_wobble_001,Fan,Wobbling and shaking,fan_wobble_001,1,1,1
+1,Dense Only,I slide the switch but no light comes out at all,Flashlight,Completely off,flashlight_no_light_001,Flashlight,Completely off,flashlight_no_light_001,1,1,1
+2,Dense Only,Just put in fresh Duracell batteries and it's still pitch black,Flashlight,Completely off,flashlight_no_light_001,Flashlight,Completely off,flashlight_no_light_001,1,1,1
+3,Dense Only,The light flashes like a strobe and hurts my eyes,Flashlight,Dim or flickering,flashlight_dim_001,Flashlight,Dim or flickering,flashlight_dim_001,1,1,1
+4,Dense Only,It used to be blinding but now it barely lights up the ground,Flashlight,Dim or flickering,flashlight_dim_001,Flashlight,Completely off,flashlight_no_light_001,2,0,1
+5,Dense Only,The rubber button on the back has zero resistance,Flashlight,Switch failure,flashlight_switch_fail_001,Flashlight,Completely off,flashlight_no_light_001,2,0,1
+6,Dense Only,Button is sunken in and won't bounce back,Flashlight,Switch failure,flashlight_switch_fail_001,Flashlight,Switch failure,flashlight_switch_fail_001,1,1,1
+7,Dense Only,"I set it on the table and it turns off, pick it up and it works",Flashlight,Intermittent loose contact,flashlight_contact_001,Flashlight,Intermittent loose contact,flashlight_contact_001,1,1,1
+8,Dense Only,"Keeps cutting out, I have to smack the side to fix it",Flashlight,Intermittent loose contact,flashlight_contact_001,Flashlight,Intermittent loose contact,flashlight_contact_001,1,1,1
+9,Dense Only,Plugged the USB in but the charging light remains off,Flashlight,Cannot charge,flashlight_no_charge_001,Flashlight,Cannot charge,flashlight_no_charge_001,1,1,1
+10,Dense Only,Left it charging all day but it still won't turn on,Flashlight,Cannot charge,flashlight_no_charge_001,Flashlight,Cannot charge,flashlight_no_charge_001,1,1,1
+11,Dense Only,"Set it on the base and clicked the switch, dead silence",Kettle,No power no heat,kettle_no_power_001,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,2,0,1
+12,Dense Only,The light is broken and the water doesn't get warm,Kettle,No power no heat,kettle_no_power_001,Kettle,Stops heating too early,kettle_early_stop_001,2,0,1
+13,Dense Only,The switch pops up before I even hear the water boiling,Kettle,Stops heating too early,kettle_early_stop_001,Kettle,Stops heating too early,kettle_early_stop_001,1,1,1
+14,Dense Only,It stops heating when the water is barely warm to the touch,Kettle,Stops heating too early,kettle_early_stop_001,Kettle,Stops heating too early,kettle_early_stop_001,1,1,1
+15,Dense Only,Water is constantly pooling out from under the kettle,Kettle,Leaking,kettle_leak_001,Kettle,Leaking,kettle_leak_001,1,1,1
+16,Dense Only,I noticed drops coming out right next to the plastic water gauge,Kettle,Leaking,kettle_leak_001,Kettle,Leaking,kettle_leak_001,1,1,1
+17,Dense Only,Water is splashing out everywhere and it's still furiously boiling,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,1,1,1
+18,Dense Only,Water is completely boiled but the switch never popped up,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,1,1,1
+19,Dense Only,"I forgot to add water and turned it on, and it just kept heating an empty pot",Kettle,Dry boil protection failure,kettle_dry_burn_001,Kettle,Dry boil protection failure,kettle_dry_burn_001,1,1,1
+20,Dense Only,"It doesn't protect itself when empty, it heated until I smelled smoke",Kettle,Dry boil protection failure,kettle_dry_burn_001,Kettle,Dry boil protection failure,kettle_dry_burn_001,1,1,1
+21,Dense Only,The boiled water tastes like melting plastic,Kettle,Limescale or bad smell,kettle_smell_001,Kettle,Limescale or bad smell,kettle_smell_001,1,1,1
+22,Dense Only,There's a thick crust of white stuff at the bottom,Kettle,Limescale or bad smell,kettle_smell_001,Kettle,Limescale or bad smell,kettle_smell_001,1,1,1
+23,Dense Only,I can feel gritty pieces in my mouth when I drink the water,Kettle,Limescale or bad smell,kettle_smell_001,Kettle,Limescale or bad smell,kettle_smell_001,1,1,1
+24,Dense Only,"No matter how much I press the power button, it won't wake up",Coffee Machine,No power no water,coffee_no_power_001,Coffee Machine,No power no water,coffee_no_power_001,1,1,1
+25,Dense Only,"Plug is fine, but the machine screen is dark and won't start",Coffee Machine,No power no water,coffee_no_power_001,Coffee Machine,No power no water,coffee_no_power_001,1,1,1
+26,Dense Only,Espresso is dripping out incredibly slowly,Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,Coffee Machine,Leaking,coffee_leak_001,2,0,1
+27,Dense Only,"The basket seems clogged, I hear the pump but no liquid",Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,1,1,1
+28,Dense Only,Water is spraying out sideways from the brew head,Coffee Machine,Leaking,coffee_leak_001,Coffee Machine,Leaking,coffee_leak_001,1,1,1
+29,Dense Only,I randomly found a huge puddle under the machine,Coffee Machine,Leaking,coffee_leak_001,Coffee Machine,Leaking,coffee_leak_001,1,1,1
+30,Dense Only,"The extracted espresso isn't hot at all, just lukewarm",Coffee Machine,Coffee not hot enough,coffee_cold_001,Coffee Machine,Coffee not hot enough,coffee_cold_001,1,1,1
+31,Dense Only,The steam wand for frothing milk doesn't get as hot as it used to,Coffee Machine,Coffee not hot enough,coffee_cold_001,Coffee Machine,Coffee not hot enough,coffee_cold_001,1,1,1
+32,Dense Only,Tank is full but the pump is just screaming and pulling zero water,Coffee Machine,Loud pump noise,coffee_pump_noise_001,Coffee Machine,Loud pump noise,coffee_pump_noise_001,1,1,1
+33,Dense Only,Machine sounds like a jackhammer but no espresso is coming out,Coffee Machine,Loud pump noise,coffee_pump_noise_001,Coffee Machine,Coffee not hot enough,coffee_cold_001,6,0,0
+34,Dense Only,That descale warning icon just won't stop flashing red,Coffee Machine,Needs descaling,coffee_descale_001,Coffee Machine,Needs descaling,coffee_descale_001,1,1,1
+35,Dense Only,Screen keeps forcing me to clean the scale and won't let me brew,Coffee Machine,Needs descaling,coffee_descale_001,Coffee Machine,Needs descaling,coffee_descale_001,1,1,1
+36,Dense Only,Outlet is fine but the fan is completely dead and won't spin,Fan,No power no spin,fan_no_power_001,Fan,No power no spin,fan_no_power_001,1,1,1
+37,Dense Only,"No matter which speed dial I turn, there is no wind and no power",Fan,No power no spin,fan_no_power_001,Fan,Weak speed,fan_weak_speed_001,2,0,1
+38,Dense Only,It's on setting 3 but turning so slow like it has no energy,Fan,Weak speed,fan_weak_speed_001,Fan,Weak speed,fan_weak_speed_001,1,1,1
+39,Dense Only,I have to physically push the blade to get it to slowly start moving,Fan,Weak speed,fan_weak_speed_001,Fan,Humming but not spinning,fan_hum_no_spin_001,2,0,1
+40,Dense Only,The motor area emits a really sharp squeaking friction noise,Fan,Abnormal noise,fan_noise_001,Fan,Abnormal noise,fan_noise_001,1,1,1
+41,Dense Only,Sounds like there's sand grinding inside it when it spins,Fan,Abnormal noise,fan_noise_001,Fan,Abnormal noise,fan_noise_001,1,1,1
+42,Dense Only,Pushed the swing button but it just stares straight ahead,Fan,Oscillation (swing) failed,fan_no_swing_001,Fan,Oscillation (swing) failed,fan_no_swing_001,1,1,1
+43,Dense Only,Swing gets stuck halfway and makes a loud clicking gear noise,Fan,Oscillation (swing) failed,fan_no_swing_001,Fan,Oscillation (swing) failed,fan_no_swing_001,1,1,1
+44,Dense Only,Turn it on and the motor buzzes angrily but the blades are frozen,Fan,Humming but not spinning,fan_hum_no_spin_001,Fan,Humming but not spinning,fan_hum_no_spin_001,1,1,1
+45,Dense Only,"The axle is totally stuck, it makes an electrical sound and gets hot but won't turn",Fan,Humming but not spinning,fan_hum_no_spin_001,Fan,Humming but not spinning,fan_hum_no_spin_001,1,1,1
+46,Dense Only,The mechanical speed buttons feel blocked and won't press down,Fan,Switch or buttons failing,fan_switch_fail_001,Fan,Switch or buttons failing,fan_switch_fail_001,1,1,1
+47,Dense Only,The button to change speed is pressed in and won't pop out,Fan,Switch or buttons failing,fan_switch_fail_001,Fan,Switch or buttons failing,fan_switch_fail_001,1,1,1
+48,Dense Only,Multiple keys got stuck down at the same time,Fan,Switch or buttons failing,fan_switch_fail_001,Fan,Switch or buttons failing,fan_switch_fail_001,1,1,1
+49,Dense Only,The moment I turn it on the whole base vibrates like it's going to break apart,Fan,Wobbling and shaking,fan_wobble_001,Fan,Wobbling and shaking,fan_wobble_001,1,1,1
+50,Dense Only,The blades look super unstable and wobbly when spinning,Fan,Wobbling and shaking,fan_wobble_001,Fan,Wobbling and shaking,fan_wobble_001,1,1,1
+1,Cascaded BM25+Dense,I slide the switch but no light comes out at all,Flashlight,Completely off,flashlight_no_light_001,Flashlight,Switch failure,flashlight_switch_fail_001,2,0,1
+2,Cascaded BM25+Dense,Just put in fresh Duracell batteries and it's still pitch black,Flashlight,Completely off,flashlight_no_light_001,Flashlight,Completely off,flashlight_no_light_001,1,1,1
+3,Cascaded BM25+Dense,The light flashes like a strobe and hurts my eyes,Flashlight,Dim or flickering,flashlight_dim_001,Flashlight,Dim or flickering,flashlight_dim_001,1,1,1
+4,Cascaded BM25+Dense,It used to be blinding but now it barely lights up the ground,Flashlight,Dim or flickering,flashlight_dim_001,Flashlight,Dim or flickering,flashlight_dim_001,1,1,1
+5,Cascaded BM25+Dense,The rubber button on the back has zero resistance,Flashlight,Switch failure,flashlight_switch_fail_001,Flashlight,Completely off,flashlight_no_light_001,2,0,1
+6,Cascaded BM25+Dense,Button is sunken in and won't bounce back,Flashlight,Switch failure,flashlight_switch_fail_001,Flashlight,Switch failure,flashlight_switch_fail_001,1,1,1
+7,Cascaded BM25+Dense,"I set it on the table and it turns off, pick it up and it works",Flashlight,Intermittent loose contact,flashlight_contact_001,Flashlight,Completely off,flashlight_no_light_001,3,0,1
+8,Cascaded BM25+Dense,"Keeps cutting out, I have to smack the side to fix it",Flashlight,Intermittent loose contact,flashlight_contact_001,Flashlight,Intermittent loose contact,flashlight_contact_001,1,1,1
+9,Cascaded BM25+Dense,Plugged the USB in but the charging light remains off,Flashlight,Cannot charge,flashlight_no_charge_001,Flashlight,Cannot charge,flashlight_no_charge_001,1,1,1
+10,Cascaded BM25+Dense,Left it charging all day but it still won't turn on,Flashlight,Cannot charge,flashlight_no_charge_001,Flashlight,Cannot charge,flashlight_no_charge_001,1,1,1
+11,Cascaded BM25+Dense,"Set it on the base and clicked the switch, dead silence",Kettle,No power no heat,kettle_no_power_001,Kettle,No power no heat,kettle_no_power_001,1,1,1
+12,Cascaded BM25+Dense,The light is broken and the water doesn't get warm,Kettle,No power no heat,kettle_no_power_001,Kettle,Stops heating too early,kettle_early_stop_001,2,0,1
+13,Cascaded BM25+Dense,The switch pops up before I even hear the water boiling,Kettle,Stops heating too early,kettle_early_stop_001,Kettle,Stops heating too early,kettle_early_stop_001,1,1,1
+14,Cascaded BM25+Dense,It stops heating when the water is barely warm to the touch,Kettle,Stops heating too early,kettle_early_stop_001,Kettle,Stops heating too early,kettle_early_stop_001,1,1,1
+15,Cascaded BM25+Dense,Water is constantly pooling out from under the kettle,Kettle,Leaking,kettle_leak_001,Kettle,Limescale or bad smell,kettle_smell_001,3,0,1
+16,Cascaded BM25+Dense,I noticed drops coming out right next to the plastic water gauge,Kettle,Leaking,kettle_leak_001,Kettle,Stops heating too early,kettle_early_stop_001,4,0,0
+17,Cascaded BM25+Dense,Water is splashing out everywhere and it's still furiously boiling,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,Kettle,Leaking,kettle_leak_001,2,0,1
+18,Cascaded BM25+Dense,Water is completely boiled but the switch never popped up,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,Kettle,Indicator on but won't stop boiling,kettle_indicator_001,1,1,1
+19,Cascaded BM25+Dense,"I forgot to add water and turned it on, and it just kept heating an empty pot",Kettle,Dry boil protection failure,kettle_dry_burn_001,Kettle,Dry boil protection failure,kettle_dry_burn_001,1,1,1
+20,Cascaded BM25+Dense,"It doesn't protect itself when empty, it heated until I smelled smoke",Kettle,Dry boil protection failure,kettle_dry_burn_001,Kettle,Dry boil protection failure,kettle_dry_burn_001,1,1,1
+21,Cascaded BM25+Dense,The boiled water tastes like melting plastic,Kettle,Limescale or bad smell,kettle_smell_001,Kettle,Limescale or bad smell,kettle_smell_001,1,1,1
+22,Cascaded BM25+Dense,There's a thick crust of white stuff at the bottom,Kettle,Limescale or bad smell,kettle_smell_001,Kettle,Limescale or bad smell,kettle_smell_001,1,1,1
+23,Cascaded BM25+Dense,I can feel gritty pieces in my mouth when I drink the water,Kettle,Limescale or bad smell,kettle_smell_001,Kettle,Limescale or bad smell,kettle_smell_001,1,1,1
+24,Cascaded BM25+Dense,"No matter how much I press the power button, it won't wake up",Coffee Machine,No power no water,coffee_no_power_001,Coffee Machine,No power no water,coffee_no_power_001,1,1,1
+25,Cascaded BM25+Dense,"Plug is fine, but the machine screen is dark and won't start",Coffee Machine,No power no water,coffee_no_power_001,Coffee Machine,No power no water,coffee_no_power_001,1,1,1
+26,Cascaded BM25+Dense,Espresso is dripping out incredibly slowly,Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,Coffee Machine,Leaking,coffee_leak_001,2,0,1
+27,Cascaded BM25+Dense,"The basket seems clogged, I hear the pump but no liquid",Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,1,1,1
+28,Cascaded BM25+Dense,Water is spraying out sideways from the brew head,Coffee Machine,Leaking,coffee_leak_001,Coffee Machine,Slow flow or blocked,coffee_flow_slow_001,2,0,1
+29,Cascaded BM25+Dense,I randomly found a huge puddle under the machine,Coffee Machine,Leaking,coffee_leak_001,Coffee Machine,Leaking,coffee_leak_001,1,1,1
+30,Cascaded BM25+Dense,"The extracted espresso isn't hot at all, just lukewarm",Coffee Machine,Coffee not hot enough,coffee_cold_001,Coffee Machine,Coffee not hot enough,coffee_cold_001,1,1,1
+31,Cascaded BM25+Dense,The steam wand for frothing milk doesn't get as hot as it used to,Coffee Machine,Coffee not hot enough,coffee_cold_001,Coffee Machine,Coffee not hot enough,coffee_cold_001,1,1,1
+32,Cascaded BM25+Dense,Tank is full but the pump is just screaming and pulling zero water,Coffee Machine,Loud pump noise,coffee_pump_noise_001,Coffee Machine,Loud pump noise,coffee_pump_noise_001,1,1,1
+33,Cascaded BM25+Dense,Machine sounds like a jackhammer but no espresso is coming out,Coffee Machine,Loud pump noise,coffee_pump_noise_001,Coffee Machine,Coffee not hot enough,coffee_cold_001,4,0,0
+34,Cascaded BM25+Dense,That descale warning icon just won't stop flashing red,Coffee Machine,Needs descaling,coffee_descale_001,Coffee Machine,Needs descaling,coffee_descale_001,1,1,1
+35,Cascaded BM25+Dense,Screen keeps forcing me to clean the scale and won't let me brew,Coffee Machine,Needs descaling,coffee_descale_001,Coffee Machine,Needs descaling,coffee_descale_001,1,1,1
+36,Cascaded BM25+Dense,Outlet is fine but the fan is completely dead and won't spin,Fan,No power no spin,fan_no_power_001,Fan,No power no spin,fan_no_power_001,1,1,1
+37,Cascaded BM25+Dense,"No matter which speed dial I turn, there is no wind and no power",Fan,No power no spin,fan_no_power_001,Fan,Weak speed,fan_weak_speed_001,2,0,1
+38,Cascaded BM25+Dense,It's on setting 3 but turning so slow like it has no energy,Fan,Weak speed,fan_weak_speed_001,Fan,Weak speed,fan_weak_speed_001,1,1,1
+39,Cascaded BM25+Dense,I have to physically push the blade to get it to slowly start moving,Fan,Weak speed,fan_weak_speed_001,Fan,Humming but not spinning,fan_hum_no_spin_001,2,0,1
+40,Cascaded BM25+Dense,The motor area emits a really sharp squeaking friction noise,Fan,Abnormal noise,fan_noise_001,Fan,Abnormal noise,fan_noise_001,1,1,1
+41,Cascaded BM25+Dense,Sounds like there's sand grinding inside it when it spins,Fan,Abnormal noise,fan_noise_001,Fan,Abnormal noise,fan_noise_001,1,1,1
+42,Cascaded BM25+Dense,Pushed the swing button but it just stares straight ahead,Fan,Oscillation (swing) failed,fan_no_swing_001,Fan,Oscillation (swing) failed,fan_no_swing_001,1,1,1
+43,Cascaded BM25+Dense,Swing gets stuck halfway and makes a loud clicking gear noise,Fan,Oscillation (swing) failed,fan_no_swing_001,Fan,Oscillation (swing) failed,fan_no_swing_001,1,1,1
+44,Cascaded BM25+Dense,Turn it on and the motor buzzes angrily but the blades are frozen,Fan,Humming but not spinning,fan_hum_no_spin_001,Fan,Humming but not spinning,fan_hum_no_spin_001,1,1,1
+45,Cascaded BM25+Dense,"The axle is totally stuck, it makes an electrical sound and gets hot but won't turn",Fan,Humming but not spinning,fan_hum_no_spin_001,Fan,Oscillation (swing) failed,fan_no_swing_001,3,0,1
+46,Cascaded BM25+Dense,The mechanical speed buttons feel blocked and won't press down,Fan,Switch or buttons failing,fan_switch_fail_001,Fan,Switch or buttons failing,fan_switch_fail_001,1,1,1
+47,Cascaded BM25+Dense,The button to change speed is pressed in and won't pop out,Fan,Switch or buttons failing,fan_switch_fail_001,Fan,Switch or buttons failing,fan_switch_fail_001,1,1,1
+48,Cascaded BM25+Dense,Multiple keys got stuck down at the same time,Fan,Switch or buttons failing,fan_switch_fail_001,Fan,Switch or buttons failing,fan_switch_fail_001,1,1,1
+49,Cascaded BM25+Dense,The moment I turn it on the whole base vibrates like it's going to break apart,Fan,Wobbling and shaking,fan_wobble_001,Fan,Wobbling and shaking,fan_wobble_001,1,1,1
+50,Cascaded BM25+Dense,The blades look super unstable and wobbly when spinning,Fan,Wobbling and shaking,fan_wobble_001,Fan,Wobbling and shaking,fan_wobble_001,1,1,1
